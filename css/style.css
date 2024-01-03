@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;300;400&display=swap');
+
+body{
+    font-family: 'Josefin Sans', sans-serif;
+    margin: 0;
+}
+
+.hero{
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/neom-ckfXPMb2_BI-unsplash.jpg) no-repeat center /cover;
+    height: 100vh;
+    position: relative;
+    text-align: center;
+}     
+
+.hero-text-box{
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.hero-text-box h1{
+    font-size: 40px;
+    font-weight: 200;
+}
+
+.hero-text-box h2{
+    font-size: 30px;
+}
+
+.hero .ah-headline .ah-words-wrapper::after{
+    background-color: #fff;
+}
+
+@media screen and (max-width:575.98px) {
+    .hero-text-box h1{
+        font-size: 30px;
+        font-weight: 200;
+    }
+    
+    .hero-text-box h2{
+        font-size: 20px;
+    }
+}
